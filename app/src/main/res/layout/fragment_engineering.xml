@@ -1,0 +1,192 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appj.step2clg.Engineering">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/lay"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/eng" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerInParent="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:background="@color/lay">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:text="Search College By Your Rank"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="italic"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:text="All India Rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:id="@+id/radioButton1" />
+                    <RadioButton
+                        android:text="DTE Maharashtra Rank"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton2" />
+                </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Your Rank:"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"/>
+                    <EditText
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textColorPrimary"
+                        android:id="@+id/Rank"
+                        android:inputType="number"
+                        android:cursorVisible="false"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose The Field:"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"/>
+                    <Spinner
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fields"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/textColorPrimary"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="20dp"
+                    android:id="@+id/cl">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose The Location:"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"/>
+                    <Spinner
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/clocations"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:background="@color/textColorPrimary"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="20dp"
+                    android:id="@+id/l">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose The Location:"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"/>
+                    <Spinner
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/llocations"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:background="@color/textColorPrimary"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Search"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/whiteb"
+                android:id="@+id/search"/>
+
+            </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

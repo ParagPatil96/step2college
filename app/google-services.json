@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084057163060",
+    "firebase_url": "https://step2clg-36570.firebaseio.com",
+    "project_id": "step2clg-36570",
+    "storage_bucket": "step2clg-36570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084057163060:android:21490fee37110f96",
+        "android_client_info": {
+          "package_name": "com.appj.step2clg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084057163060-6gahljh74m9kk5s9p857a4dd3ort6b8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appj.step2clg",
+            "certificate_hash": "78a65e78255b5685b3b185f72d5d3933ecea3aa6"
+          }
+        },
+        {
+          "client_id": "1084057163060-rfht5psubg5pir30acmsjg4k9qghaksm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtaOMMhsNQJcXD96ZLrgQU2tVHFfeGxQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084057163060-rfht5psubg5pir30acmsjg4k9qghaksm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
